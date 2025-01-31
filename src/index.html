@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="icon" type="image/svg+xml" href="./img/icons-16.png" />
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>goit-js-hw-09</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body>
-    <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
-
+  <body class="index">
     <main>
-      <!-- Loads the specified .html file -->
-      <load src="./partials/vite-promo.html" />
-      <load src="./partials/badges.html" />
+      <div class="container">
+        <h1>
+          Вітаю! Ти напевно з важливою метою сюди прийшов, бо інакше витратив би
+          цінний час на щось більш важливе! <br />Я радий, що ти тут!
+          <br />Нижче ти можеш перейти на одну зі сторінок. <br />Цікаво і там,
+          і там, тому вибери, з чого почати!
+        </h1>
+      </div>
+      <div class="image-container">
+        <a href="./1-gallery.html">Галерея</a>
+        <a href="./2-form.html">Форма</a>
+      </div>
     </main>
 
-    <load src="./partials/footer.html" />
-
-    <script type="module" src="./main.js"></script>
+    <script type="module" src="./js/main.js"></script>
   </body>
 </html>
