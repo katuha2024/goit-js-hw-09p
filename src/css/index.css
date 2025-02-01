@@ -1,20 +1,21 @@
 .image-container {
   display: flex;
-  gap: 240px;
+  gap: 100px;
   justify-content: center;
   align-items: center;
   margin: 50px auto 0;
   width: 700px;
   height: 500px;
-  background-image: url('../img/Red_and_blue_pill.jpg');
+  background-image: url('../img/doloni.jpg');
   background-size: 700px 500px;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .image-container a {
-  font-size: 28px;
-  color: beige;
+  font-weight: 700;
+  font-size: 30px;
+  color: black;
 }
 
 h1 {
